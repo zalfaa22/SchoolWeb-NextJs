@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://db.onlinewebfonts.com/t/060fd297f19446447a9a1325ad5b889b.woff");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +28,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer base{
+  @font-face {
+      font-family: "SF Pro Rounded";
+      src: url("https://db.onlinewebfonts.com/t/060fd297f19446447a9a1325ad5b889b.woff");
+  }
+
+
+  h1{
+      font-family: SF Pro Rounded;
+  }
 }
