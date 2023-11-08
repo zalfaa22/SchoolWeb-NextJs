@@ -14,7 +14,7 @@ function Anggota() {
       <div class="mx-auto max-w-2xl lg:pt-4 lg:pb-24 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-1">
         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {jsonData.map((item, anggota) => (
-            <a href="#" class="group">
+            <a key={anggota} href="#" class="group">
               <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-3xl bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                 <Image
                   src={item.image}
