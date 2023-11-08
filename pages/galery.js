@@ -11,7 +11,7 @@ function Galery() {
             backgroundImage: "url(galery/background.png)",
             backgroundSize: "cover",
             overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
-            height: "117vh",
+            height: "117vh ",
           }}
         >
           {/* Headline */}

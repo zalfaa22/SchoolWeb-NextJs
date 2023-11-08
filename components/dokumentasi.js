@@ -15,7 +15,7 @@ function Dokumentasi() {
       {jsonData.map((item, index) => (
         <a key={index} href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
-          <Image
+          <img
             src={item.image}
             alt=""
             class="h-full w-full object-cover object-center group-hover:opacity-75"

@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function Keunggulan() {
   return (
-      <div class=" w-[1200px] h-[350px] p-[100px]  justify-center items-center inline-flex">
+      <div class=" w-[1200px] h-[350px] p-[100px] justify-center items-center inline-flex">
         <div class="w-px"></div>
-        <div class="self-stretch justify-start items-center inline-flex">
+        <div class="self-stretch justify-start items-center lg:inline-flex">
           <div class="justify-start items-center gap-6 flex pl-28">
             <div class="w-[360px] h-[300px] flex-col justify-start items-start gap-6 inline-flex">
               <div class="p-5 bg-violet-500 rounded-[80px] justify-start items-start gap-2.5 inline-flex">
