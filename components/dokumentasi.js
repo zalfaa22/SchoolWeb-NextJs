@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import data from '../data/dokumentasi.json'; // Impor data dari file JSON
 // import Card from './Card';
 
@@ -12,9 +13,9 @@ function Dokumentasi() {
   return (
     <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
       {jsonData.map((item, index) => (
-        <a href="#" class="group">
+        <a key={index} href="#" class="group">
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
-          <img
+          <Image
             src={item.image}
             alt=""
             class="h-full w-full object-cover object-center group-hover:opacity-75"
