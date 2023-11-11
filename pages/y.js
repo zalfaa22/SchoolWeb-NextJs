@@ -1,9 +1,8 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
 
-function Footer() {
-    return (
-        <footer class="bg-gray-100">
+export default function y() {
+  return (
+    <footer class="bg-gray-100">
     <div class="container p-6 mx-auto lg:pt-12">
         <div class="lg:flex">
             <div class="w-full -mx-6 lg:w-2/5">
@@ -56,11 +55,9 @@ function Footer() {
         <hr class="h-px my-6 lg:mx-10 bg-gray-200 border-none"/>
 
         <div>
-            <p class="text-center text-neutral-700 text-xs lg:text-base">Copyright © 2021. All rights reserved.</p>
+            <p class="text-center text-neutral-700">Copyright © 2021. All rights reserved.</p>
         </div>
     </div>
 </footer>
-    );
-  }
-
-export default Footer;
+  )
+}
