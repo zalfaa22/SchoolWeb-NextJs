@@ -63,7 +63,7 @@ function Index() {
               />
 
               <div class="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-                <h1 class="text-2xl font-bold text-gray-800 dark:text-white lg:text-4xl lg:w-96">
+                <h1 class="font-bold text-gray-800 dark:text-white text-lg lg:text-4xl lg:w-96">
                   Tentang Kami
                 </h1>
 

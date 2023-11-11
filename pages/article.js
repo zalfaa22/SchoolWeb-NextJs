@@ -20,19 +20,19 @@ function Article() {
           />
         </main>
 
-        <div class="mt-16 pb-40 ml-20 ">
+        <div class="mt-16 pb-40 ml-8 lg:ml-20 ">
           <div class="px-4 py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
             <button class="text-white text-xl font-normal font-Poppins">
               12 Desember 2021
             </button>
           </div>
-          <h1 class="text-blue-950 text-[53px] font-bold  mt-4 leading-tight pr-6">
+          <h1 class="text-blue-950 text-xl lg:text-[53px] font-bold  mt-4 leading-tight pr-6">
             Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
           </h1>
-          <h2 class="text-neutral-700 text-xl font-normal font-Poppins mt-2 mb-6">
+          <h2 class="text-neutral-700 text-base lg:text-xl font-normal font-Poppins mt-2 mb-6">
             Penulis : Shinta A.P
           </h2>
-          <p class="text-justify text-neutral-700 text-xl font-normal font-Poppins pr-20">
+          <p class="text-justify text-neutral-700 text-base lg:text-xl font-normal font-Poppins pr-8 lg:pr-20">
             Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
             kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman
             sekelas saya. begitupun sebagian besar orang tua, mimpi mereka
