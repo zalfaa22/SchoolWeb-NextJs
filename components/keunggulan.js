@@ -23,7 +23,7 @@ function Keunggulan() {
                     <img src="clock.svg" class="w-10 h-10 p-2 lg:w-12 lg:h-12 lg:p-2"/>
                 </span>
 
-                <h2 class="mt-4 text-xl lg:text-2xl font-semibold text-gray-800 dark:text-white lg:pr-20">Efektifitas Waktu
+                <h2 class="mt-4 text-xl lg:text-2xl font-semibold text-gray-800 lg:pr-20">Efektifitas Waktu
                   Saat Belajar Disekolah</h2>
 
                 <p class="mt-2 text-neutral-400 text-base lg:text-lg font-Poppins lg:mr-2 tracking-tight">Sekolah kami memiliki waktu belajar yang dirancang agar para
@@ -35,7 +35,7 @@ function Keunggulan() {
                     <img src="pen-tool.svg" class="w-10 h-10 p-2 lg:w-12 lg:h-12 lg:p-2"/>
                 </span>
 
-                <h2 class="mt-4 text-xl lg:text-2xl font-semibold text-gray-800 dark:text-white lg:pr-20">Penyaluran
+                <h2 class="mt-4 text-xl lg:text-2xl font-semibold text-gray-800 lg:pr-20">Penyaluran
                   Bakat dan Minat</h2>
 
                 <p class="mt-2 text-neutral-400 text-base lg:text-lg font-Poppins lg:mr-2 tracking-tight">Sekolah kami memiliki berbagai macam kegitan akademik maupun
