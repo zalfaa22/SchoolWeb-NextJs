@@ -2,7 +2,6 @@ import React from "react";
 import Artikelbaru from "../components/artikelbaru";
 import Dokumentasi from "../components/dokumentasi";
 import Keunggulan from "../components/keunggulan";
-import Fitur from "../components/fitur";
 
 function Index() {
   return (
@@ -122,7 +121,6 @@ function Index() {
           <Artikelbaru />
         </div>
         <div class="pb-10 lg:pb-28"></div>
-        {/* <Fitur /> */}
       </div>
     </>
   );
