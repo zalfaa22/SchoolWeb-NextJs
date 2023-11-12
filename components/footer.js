@@ -22,14 +22,14 @@ function Footer() {
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:px-5 lg:ml-32">
                     <div>
                         <h3 class="lg:text-lg font-medium text-blue-950">Informasi</h3>
-                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Artikel</a>
-                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Galeri</a>
+                        <a href="/news" class="block mt-2 text-sm text-neutral-700 hover:underline">Artikel</a>
+                        <a href="/galery" class="block mt-2 text-sm text-neutral-700 hover:underline">Galeri</a>
                     </div>
 
                     <div>
                         <h3 class="lg:text-lg font-medium text-blue-950">Tentang</h3>
-                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Tentang kami</a>
-                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Hubungi kami</a>
+                        <a href="/about" class="block mt-2 text-sm text-neutral-700 hover:underline">Tentang kami</a>
+                        <a href="/contact" class="block mt-2 text-sm text-neutral-700 hover:underline">Hubungi kami</a>
                     </div>
 
                     <div>

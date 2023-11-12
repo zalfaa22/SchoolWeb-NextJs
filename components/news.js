@@ -28,9 +28,10 @@ function News() {
           <p className="mt-1 text-sm lg:text-base text-gray-500 font-Poppins font-normal line-clamp-3">
             {item.description}
           </p>
-          <p className="mt-2 text-xs lg:text-base text-blue-400 font-Poppins font-semibold pb-3 lg:pb-10">
+          <a href='#'>
+          <p className="mt-2 text-xs lg:text-base text-blue-400 hover:underline font-Poppins font-semibold pb-3 lg:pb-10">
           Baca selengkapnya
-          </p>
+          </p></a>
         </a>
       ))}
     </div>

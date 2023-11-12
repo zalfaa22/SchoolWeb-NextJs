@@ -11,7 +11,7 @@ function News() {
           style={{
             backgroundImage: "url(news/background.png)",
             backgroundSize: "cover",
-            overflowY: "auto", 
+            overflowY: "auto",
             height: "117vh",
           }}
         >
@@ -45,10 +45,12 @@ function News() {
                     12 Desember 2021
                   </a>
                 </div>
-                <h2 class="text-lg lg:text-[32px] font-bold text-blue-950  mt-2 lg:mt-2 leading-tight">
-                  Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
-                </h2>
-
+                <a href="/article">
+                  <h2 class="text-lg lg:text-[32px] font-bold text-blue-950  mt-2 lg:mt-2 leading-tight">
+                    Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke
+                    Sekolah
+                  </h2>
+                </a>
                 <p
                   class="max-w-lg md:max-w-3xl mt-3 text-neutral-700 text-base lg:text-xl font-normal  tracking-tight"
                   style={{ textAlign: "justify" }}
