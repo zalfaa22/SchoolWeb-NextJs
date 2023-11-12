@@ -15,13 +15,13 @@ function Galery() {
           }}
         >
           {/* Headline */}
-          <div className="w-72 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
+          <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
             <div>
               <div>
                 <h3 className="font-poppins text-white font-bold text-2xl lg:text-5xl leading-[60px] tracking-tighter">
                   Galeri
                 </h3>
-                <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
+                <p className="text-lg lg:text-xl text-white font-normal mt-5 pr-5">
                   Beberapa dokumentasi area sekolah dan <br /> kegiatan sekolah
                 </p>
               </div>

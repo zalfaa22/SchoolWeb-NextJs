@@ -9,7 +9,7 @@ function Footer() {
             <div class="w-full -mx-6 lg:w-2/5">
                 <div class="px-6 lg:px-16">
                     <a href="#">
-                        <img class="w-auto h-7 lg:h-16" src="logo2.svg" alt=""/>
+                        <img class="w-auto h-8 md:h-10 lg:h-16 mb-7 md:mb-7" src="logo2.svg" alt=""/>
                     </a>
 
                     <p class="max-w-sm mt-2 lg:mt-12 text-slate-700 lg:text-lg lg:font-normal">Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat</p>
@@ -22,27 +22,27 @@ function Footer() {
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 lg:px-5 lg:ml-32">
                     <div>
                         <h3 class="lg:text-lg font-medium text-blue-950">Informasi</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Artikel</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Galeri</a>
+                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Artikel</a>
+                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Galeri</a>
                     </div>
 
                     <div>
                         <h3 class="lg:text-lg font-medium text-blue-950">Tentang</h3>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Tentang kami</a>
-                        <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Hubungi kami</a>
+                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Tentang kami</a>
+                        <a href="#" class="block mt-2 text-sm text-neutral-700 hover:underline">Hubungi kami</a>
                     </div>
 
                     <div>
                         <h3 class="lg:text-lg font-medium text-blue-950">Ikuti Kami</h3>
-                        <a href="#" class="flex items-center mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                        <a href="#" class="flex items-center mt-2 text-sm text-neutral-700 hover:underline">
                         <img src="facebook.svg" class="w-4 h-4 mr-1" />
                         namasekolah
                         </a>
-                        <a href="#" class="flex items-center mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                        <a href="#" class="flex items-center mt-2 text-sm text-neutral-700 hover:underline">
                         <img src="twitter.svg" class="w-4 h-4 mr-1" />
                         namasekolah
                         </a>
-                        <a href="#" class="flex items-center mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                        <a href="#" class="flex items-center mt-2 text-sm text-neutral-700 hover:underline">
                         <img src="instagram.svg" class="w-4 h-4 mr-1" />
                         namasekolah
                         </a>

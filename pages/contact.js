@@ -14,14 +14,14 @@ function Contact() {
           }}
         >
           {/* Headline */}
-          <div className="w-72 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
+          <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
             <div>
               <div>
-                <h3 className="font-poppins text-white font-bold text-2xl lg:text-5xl leading-[60px] tracking-tighter">
+                <h3 className=" text-white font-bold text-2xl lg:text-5xl leading-[60px] tracking-tighter">
                   Hubungi Kami
                 </h3>
                 <p className="text-lg lg:text-xl text-white font-normal mt-5 pr-5">
-                  Kontak sekolah kami agar anda bisa terhubung <br /> dengan
+                  Kontak sekolah kami agar anda bisa terhubung dengan
                   kami
                 </p>
               </div>
@@ -30,7 +30,7 @@ function Contact() {
         </main>
 
         <div class="py-6 lg:mt-28 text-center text-gray-800">
-          <h2 class="text-blue-400 text-base lg:text-2xl font-normal font-Poppins mb-3">
+          <h2 class="text-blue-400 text-base lg:text-2xl font-normal  mb-3">
           Dapatkan informasi lengkap
           </h2>
           <h1 class="lg:mb-3 text-2xl lg:text-5xl font-bold font-SF Pro Rounded text-blue-950">
@@ -51,7 +51,7 @@ function Contact() {
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">
-                    <div class="text-slate-700 text-base lg:text-2xl font-semibold font-Poppins leading-relaxed">
+                    <div class="text-slate-700 text-base lg:text-2xl font-semibold  leading-relaxed">
                       <p>(+62) 812 698 15172</p>
                       <p>(0341) 545 987</p>
                     </div>
@@ -66,7 +66,7 @@ function Contact() {
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">
-                    <div class="text-slate-700 text-base lg:text-2xl font-semibold font-Poppins leading-relaxed">
+                    <div class="text-slate-700 text-base lg:text-2xl font-semibold  leading-relaxed">
                       <p>contact@sekolahanak.Com</p>
                       <p>info@sekolah.anak.com</p>
                     </div>
@@ -81,7 +81,7 @@ function Contact() {
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">
-                    <div class="text-slate-700 text-base lg:text-2xl font-semibold font-Poppins leading-relaxed">
+                    <div class="text-slate-700 text-base lg:text-2xl font-semibold  leading-relaxed">
                       <p>jL. Soekarno hatta J-12</p>
                       <p>malang</p>
                     </div>
@@ -90,38 +90,38 @@ function Contact() {
               </div>
               <div className="space-y-4"></div>
             </div>
-            <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+            <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 md:mb-14">
               <label className="block">
                 <input
                   type="text"
                   placeholder="Nama Anda*"
-                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal font-Poppins capitalize leading-10 "
+                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal  capitalize leading-10 "
                 />
               </label>
               <label className="block">
                 <input
                   type="text"
                   placeholder="Email Anda*"
-                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal font-Poppins capitalize leading-10 "
+                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal  capitalize leading-10 "
                 />
               </label>
               <label className="block">
                 <input
                   type="text"
                   placeholder="Nomor Telepon*"
-                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal font-Poppins capitalize leading-10 "
+                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal  capitalize leading-10 "
                 />
               </label>
               <label className="block">
                 <textarea
                   rows="3"
                   placeholder="Pesan Anda*"
-                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal font-Poppins capitalize leading-10 "
+                  className="block w-full px-6 lg:py-3 rounded-lg border-2 border-black border-opacity-30 text-neutral-700 text-opacity-70 text-base lg:text-xl font-normal  capitalize leading-10 "
                 ></textarea>
               </label>
               <button
                 type="button"
-                className="self-center lg:px-60 px-6 py-1 lg:py-3 bg-purple-500 rounded-3xl text-white text-base lg:text-xl font-medium font-Poppins"
+                className="self-center lg:px-60 px-6 py-1 lg:py-3 bg-purple-500 rounded-3xl text-white text-base lg:text-xl font-medium "
               >
                 Submit
               </button>

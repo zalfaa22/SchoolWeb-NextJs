@@ -4,7 +4,7 @@ import Link from "next/link";
 function Keunggulan() {
   return (
     <section>
-    <div class="container px-5 lg:px-28 py-12 mx-auto">
+    <div class="container px-5 md:px-10 lg:px-16 pt-8 mb-16 lg:mb-0 lg:pt-0 lg:py-12 mx-auto">
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div>
             <span class="inline-block p-2 lg:p-3 bg-violet-500 rounded-full ">

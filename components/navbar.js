@@ -9,7 +9,12 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    
   };
+  
+  const closeMenu = () => {
+      setIsMobileMenuOpen(false);
+    };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -135,8 +140,8 @@ function Navbar() {
           </button>
           {isMobileMenuOpen && (
             <div className="lg:hidden bg-white text-gray-800 absolute top-16 left-0 right-0 mt-2 p-2  shadow-lg">
-              <ul className="flex flex-col space-y-2 ml-5 py-3">
-                <li >
+              <ul className="flex flex-col space-y-2 ml-5 py-3" onClick={closeMenu}>
+                <li>
                   <Link href="/">Beranda</Link>
                 </li>
                 <li>

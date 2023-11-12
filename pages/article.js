@@ -14,7 +14,7 @@ function Article() {
           }}
         >
           <img
-            className="w-[1100px] object-center rounded-lg mt-40"
+            className="w-[270px] md:w-[700px] lg:w-[1100px] object-center rounded-lg mt-40"
             src="article/image.png"
             alt="Image Description"
           />

@@ -15,16 +15,16 @@ function Artikelbaru() {
         <a key={index}  className="group relative">
           <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
             <img src={item.image} alt="" className="h-full w-full object-cover object-center group-hover:opacity-75" />
-            <div className="absolute w-[140px] lg:w-[194px] lg:h-10 lg:px-4 py-1 lg:py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex top-[120px] lg:top-[200px] left-[33px] lg:left-[75px]">
+            <div className="absolute w-[140px] lg:w-[194px] lg:h-10 lg:px-4 py-1 lg:py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex top-[120px] md:top-[187px] lg:top-[200px] left-[33px] md:left-[85px] lg:left-[75px]">
               <div className="text-white text-sm font-normal font-Poppins">
                 {item.date}
               </div>
             </div>
           </div>
-          <h3 className="mt-10 text-base lg:text-xl text-gray-900 font-Poppins font-semibold">
+          <h3 className="mt-10 lg:mt-12 text-base lg:text-xl text-gray-900 font-Poppins font-semibold">
             {item.tittle}
           </h3>
-          <p className="mt-1 text-sm lg:text-base text-gray-500 font-Poppins font-normal">
+          <p className="mt-1 lg:mt-3 text-sm lg:text-base text-gray-500 font-Poppins font-normal">
             {item.description}
           </p>
         </a>
