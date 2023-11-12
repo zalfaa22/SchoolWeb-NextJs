@@ -1,5 +1,6 @@
 import React from "react";
 import Artikel from "../components/news";
+import Link from "next/link";
 
 function News() {
   return (
@@ -63,11 +64,11 @@ function News() {
                 <p class="text-neutral-700 text-sm font-normal  my-1">
                   Penulis : Shinta A.P
                 </p>
-                <a href="/article">
+                <Link href="/article">
                   <p class="text-blue-400 text-sm font-semibold hover:underline my-1">
                     Baca selengkapnya
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
