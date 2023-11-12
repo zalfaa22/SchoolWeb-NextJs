@@ -10,7 +10,7 @@ function Galery() {
           style={{
             backgroundImage: "url(galery/background.png)",
             backgroundSize: "cover",
-            overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
+            overflowY: "auto",
             height: "117vh ",
           }}
         >

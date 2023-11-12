@@ -9,12 +9,11 @@ function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
-    
   };
-  
+
   const closeMenu = () => {
-      setIsMobileMenuOpen(false);
-    };
+    setIsMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -118,7 +117,7 @@ function Navbar() {
             PPDB
           </button>
         </div>
-        
+
         <div className="lg:hidden">
           <button onClick={toggleMobileMenu} className="p-4">
             <svg
@@ -140,7 +139,10 @@ function Navbar() {
           </button>
           {isMobileMenuOpen && (
             <div className="lg:hidden bg-white text-gray-800 absolute top-16 left-0 right-0 mt-2 p-2  shadow-lg">
-              <ul className="flex flex-col space-y-2 ml-5 py-3" onClick={closeMenu}>
+              <ul
+                className="flex flex-col space-y-2 ml-5 py-3"
+                onClick={closeMenu}
+              >
                 <li>
                   <Link href="/">Beranda</Link>
                 </li>
@@ -159,9 +161,7 @@ function Navbar() {
               </ul>
               <button
                 className={`self-center px-6 py-1 ml-4 mb-4 font-semibold ${
-                  isScrolled
-                    ? "text-gray-800"
-                    : "dark:bg-violet-400 dark:text-gray-900"
+                  isScrolled ? "text-gray-800" : "bg-transparent "
                 } border-2 rounded-2xl mt-4`}
               >
                 PPDB

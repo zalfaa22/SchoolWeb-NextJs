@@ -9,7 +9,7 @@ function Contact() {
           style={{
             backgroundImage: "url(contact/background.png)",
             backgroundSize: "cover",
-            overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
+            overflowY: "auto",
             height: "117vh",
           }}
         >
@@ -21,8 +21,7 @@ function Contact() {
                   Hubungi Kami
                 </h3>
                 <p className="text-lg lg:text-xl text-white font-normal mt-5 pr-5">
-                  Kontak sekolah kami agar anda bisa terhubung dengan
-                  kami
+                  Kontak sekolah kami agar anda bisa terhubung dengan kami
                 </p>
               </div>
             </div>
@@ -31,7 +30,7 @@ function Contact() {
 
         <div class="py-6 lg:mt-28 text-center text-gray-800">
           <h2 class="text-blue-400 text-base lg:text-2xl font-normal  mb-3">
-          Dapatkan informasi lengkap
+            Dapatkan informasi lengkap
           </h2>
           <h1 class="lg:mb-3 text-2xl lg:text-5xl font-bold font-SF Pro Rounded text-blue-950">
             Kontak Kami
@@ -45,9 +44,9 @@ function Contact() {
                 <div class="justify-start items-center gap-6 inline-flex">
                   <div class="p-3 lg:p-5 bg-violet-500 rounded-[80px] justify-center items-start gap-2.5 flex">
                     <div class="w-[20px] h-[20px] lg:w-[46px] lg:h-[46px] relative">
-                    <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
-                  <img class="absolute" src="phone.svg" />
-                </div>
+                      <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
+                        <img class="absolute" src="phone.svg" />
+                      </div>
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">
@@ -60,9 +59,9 @@ function Contact() {
                 <div class="justify-start items-center gap-6 inline-flex">
                   <div class="p-3 lg:p-5 bg-amber-400 rounded-[80px] justify-center items-start gap-2.5 flex">
                     <div class="w-[20px] h-[20px] lg:w-[46px] lg:h-[46px] relative">
-                    <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
-                  <img class="absolute" src="email.svg" />
-                </div>
+                      <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
+                        <img class="absolute" src="email.svg" />
+                      </div>
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">
@@ -75,9 +74,9 @@ function Contact() {
                 <div class="justify-start items-center gap-6 inline-flex">
                   <div class="p-3 lg:p-5 bg-blue-400 rounded-[80px] justify-center items-start gap-2.5 flex">
                     <div class="w-[20px] h-[20px] lg:w-[46px] lg:h-[46px] relative">
-                    <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
-                  <img class="absolute" src="location.svg" />
-                </div>
+                      <div class="w-5 h-5 lg:w-12 lg:h-12 relative">
+                        <img class="absolute" src="location.svg" />
+                      </div>
                     </div>
                   </div>
                   <div class="flex-col justify-start items-start gap-2 inline-flex">

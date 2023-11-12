@@ -1,6 +1,6 @@
 import React from "react";
-import Keunggulan from "@/components/keunggulan";
-import Anggota from "@/components/anggota";
+import Keunggulan from "/components/keunggulan";
+import Anggota from "/components/anggota";
 
 function About() {
   return (
@@ -11,7 +11,7 @@ function About() {
           style={{
             backgroundImage: "url(about/background.png)",
             backgroundSize: "cover",
-            overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
+            overflowY: "auto",
             height: "117vh",
           }}
         >
@@ -67,12 +67,13 @@ function About() {
             </h2>
             <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded mt-1 lg:mt-4 lg:inline-flex">
               <h1>Guru & Staff Sekolah</h1>
-              <a href="#">
-              <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
-                <div class="text-white text-sm lg:text-xl font-medium ">
-                  Lihat Semua
+              <Link href="#">
+                <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
+                  <div class="text-white text-sm lg:text-xl font-medium ">
+                    Lihat Semua
+                  </div>
                 </div>
-              </div></a>
+              </Link>
             </div>
           </div>
           <div class="px-20 g:px-28 mt-16 lg:mt-0">
@@ -87,8 +88,12 @@ function About() {
           <h1 class="mb-3 text-2xl lg:text-5xl font-bold font-SF Pro Rounded text-blue-950">
             Video Profil
           </h1>
-          <iframe   src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen class="mx-auto rounded-xl md:w-[650px] lg:w-[1100px] md:h-[300px] lg:h-[500px]"></iframe>
-          
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allowfullscreen
+            class="mx-auto rounded-xl md:w-[650px] lg:w-[1100px] md:h-[300px] lg:h-[500px]"
+          ></iframe>
         </div>
       </div>
     </>

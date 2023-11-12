@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Artikelbaru from "../components/artikelbaru";
 import Dokumentasi from "../components/dokumentasi";
 import Keunggulan from "../components/keunggulan";
@@ -96,13 +97,13 @@ function Index() {
             </h2>
             <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 lg:inline-flex">
               <h1>Dokumentasi Sekolah</h1>
-              <a href="/galery">
+              <Link href="/galery">
               <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
                 
                 <div class="text-white text-sm lg:text-xl font-medium ">
                   Lihat Semua
                 </div>
-              </div></a>
+              </div></Link>
             </div>
           </div>
           <div class="px-16 mt-14 lg:mt-0 lg:px-28">
