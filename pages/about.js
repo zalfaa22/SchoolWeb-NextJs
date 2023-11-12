@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Keunggulan from "/components/keunggulan";
 import Anggota from "/components/anggota";
 
