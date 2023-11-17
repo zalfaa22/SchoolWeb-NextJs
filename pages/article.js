@@ -5,24 +5,23 @@ function Article() {
     <>
       <div className="bg-white">
         <main
-          className=" bg-background flex flex-col items-center justify-center"
+          className="hidden bg-background lg:flex flex-col items-center justify-center"
           style={{
             backgroundImage: "url(article/background.png)",
             backgroundSize: "cover",
             overflowY: "auto",
-            height: "117vh",
+            height: "145vh",
           }}
-        >
-          <img
-            className="w-[270px] md:w-[700px] lg:w-[1100px] object-center rounded-lg mt-40"
-            src="article/image.png"
-            alt="Image Description"
-          />
-        </main>
+        ></main>
+        <img
+          className="lg:absolute flex pt-24 lg:pt-0 px-8 lg:top-40 lg:px-16 object-center rounded-lg "
+          src="article/image.png"
+          alt="Image Description"
+        />
 
-        <div class="mt-16 pb-40 ml-8 lg:ml-20 ">
+        <div class="mt-8 lg:mt-16 pb-40 ml-8 lg:ml-20 ">
           <div class="px-4 py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-            <button class="text-white text-xl font-normal font-Poppins">
+            <button class="text-white lg:text-xl font-normal font-Poppins">
               12 Desember 2021
             </button>
           </div>
@@ -41,38 +40,46 @@ function Article() {
             selama pandemi lebih banyak menghabiskan waktu di depan layar
             gawainya bukan hanya untuk belajar namun juga untuk bermain game.
             Belum lagi harus menemani dan membantu anak-anak belajar sementara
-            pekerjaan di rumah tidaklah sedikit.<br/><br/> Namun perlahan demi perlahan
-            sejak Oktober lalu, beberapa sekolah di Indonesia sudah mulai
-            menerapkan Pembelajaran Tatap Muka atau PTM namun secara terbatas
-            termasuk di Purwakarta kota saya tercinta. Seminggu sekali anak-anak
-            bersekolah tentunya dengan pembatasan jarak ataupun waktu belajar
-            yang mengalami pengurangan.<br/><br/> Sekolah tempat saya mengabdi yaitu SMPN
-            8 Purwakarta baru di Januari tahun 2022 ini akan mulai melaksanakan
-            pembelajaran tatap muka secara terbatas setelah memenuhi persyaratan
-            yang ditentukan oleh Pemerintah Daerah dalam hal ini Dinas
-            Pendidikan yang beberapa syaratnya antara lain tersedianya fasilitas
-            kesehatan, siswa-siswi serta civitas sekolah yang sudah di vaksin
-            dan beberapa persyaratan lainnya.<br/><br/> Karenanya untuk mewujudkan mimpi
-            para siswa yang ingin kembali belajar di sekolah, di hari Jumat
-            tanggal 7 Januari 2022 diselenggarakan kegiatan gotong royong
-            membersihkan sekolah yang dilaksanakan oleh perwakilan orang tua
-            siswa, perwakilan siswa, perwakilan OSIS dan tentunya dilaksanakan
-            juga oleh segenap civitas sekolah baik itu Guru maupun Staff Tata
-            Usaha.<br/><br/> Kegiatan gotong royong membersihkan sekolah tersebut diadakan
+            pekerjaan di rumah tidaklah sedikit.
+            <br />
+            <br /> Namun perlahan demi perlahan sejak Oktober lalu, beberapa
+            sekolah di Indonesia sudah mulai menerapkan Pembelajaran Tatap Muka
+            atau PTM namun secara terbatas termasuk di Purwakarta kota saya
+            tercinta. Seminggu sekali anak-anak bersekolah tentunya dengan
+            pembatasan jarak ataupun waktu belajar yang mengalami pengurangan.
+            <br />
+            <br /> Sekolah tempat saya mengabdi yaitu SMPN 8 Purwakarta baru di
+            Januari tahun 2022 ini akan mulai melaksanakan pembelajaran tatap
+            muka secara terbatas setelah memenuhi persyaratan yang ditentukan
+            oleh Pemerintah Daerah dalam hal ini Dinas Pendidikan yang beberapa
+            syaratnya antara lain tersedianya fasilitas kesehatan, siswa-siswi
+            serta civitas sekolah yang sudah di vaksin dan beberapa persyaratan
+            lainnya.
+            <br />
+            <br /> Karenanya untuk mewujudkan mimpi para siswa yang ingin
+            kembali belajar di sekolah, di hari Jumat tanggal 7 Januari 2022
+            diselenggarakan kegiatan gotong royong membersihkan sekolah yang
+            dilaksanakan oleh perwakilan orang tua siswa, perwakilan siswa,
+            perwakilan OSIS dan tentunya dilaksanakan juga oleh segenap civitas
+            sekolah baik itu Guru maupun Staff Tata Usaha.
+            <br />
+            <br /> Kegiatan gotong royong membersihkan sekolah tersebut diadakan
             agar ketika anak kembali ke kelasnya, kelasnya sudah dalam keadaan
             bersih. Seperti yang dikatakan oleh perwakilan orang tua dari kelas
             7 dan 9 yang mengatakan alasan ikut gotong royong membersihkan kelas
             anaknya agar anaknya dapat belajar dengan nyaman dan sehat karena
             lingkungan kelas maupun sekolahnya yang bersih. Selain itu mengingat
             salah satu syarat bisa diadakan pembelajaran tatap muka adalah
-            lingkungan pembelajaran yang bersih dan sehat.<br/><br/>  Selain membawa
-            peralatan kebersihan masing-masing, ada pula orang tua yang membawa
-            makanan untuk dikonsumsi setelah kelas selesai. Terjalin pula
-            kerjasama yang baik antar orang tua padahal ada yang tidak kenal
-            awalnya begitu juga anak-anak kelas 7 yang akhirnya bisa bertemu
-            dengan teman kelasnya secara langsung setelah di semester ganjil ini
-            hanya bertemu di pembelajaran online. Semuanya  hadir demi
-            mewujudkan pembelajaran tatap muka meskipun terbatas.
+            lingkungan pembelajaran yang bersih dan sehat.
+            <br />
+            <br />  Selain membawa peralatan kebersihan masing-masing, ada pula
+            orang tua yang membawa makanan untuk dikonsumsi setelah kelas
+            selesai. Terjalin pula kerjasama yang baik antar orang tua padahal
+            ada yang tidak kenal awalnya begitu juga anak-anak kelas 7 yang
+            akhirnya bisa bertemu dengan teman kelasnya secara langsung setelah
+            di semester ganjil ini hanya bertemu di pembelajaran online.
+            Semuanya  hadir demi mewujudkan pembelajaran tatap muka meskipun
+            terbatas.
           </p>
         </div>
       </div>

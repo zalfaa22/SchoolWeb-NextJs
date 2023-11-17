@@ -11,7 +11,7 @@ function Galery() {
             backgroundImage: "url(galery/background.png)",
             backgroundSize: "cover",
             overflowY: "auto",
-            height: "117vh ",
+            height: "145vh ",
           }}
         >
           {/* Headline */}

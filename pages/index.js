@@ -9,38 +9,46 @@ function Index() {
     <>
       <div className="bg-white">
         <main
-          className=" bg-background flex "
+          className="bg-background flex h-[40rem] md:h[50rem] lg:h-[50rem]"
           style={{
             backgroundImage: "url(home/background.png)",
             backgroundSize: "cover",
-            overflowY: "auto", 
-            height: "133vh",
+            overflowY: "auto",
           }}
         >
-          <img class="hidden lg:absolute lg:right-0 lg:top-[1100px]" src="home/side1.png" />
-          <img class="hidden lg:absolute lg:left-0 lg:top-[1680px]" src="home/side2.png" />
-          <img class="hidden lg:absolute lg:right-0 lg:top-[3100px]" src="home/side3.png" />
+          <img
+            class="hidden lg:flex lg:absolute lg:right-0 lg:top-[1100px]"
+            src="home/side1.png"
+          />
+          <img
+            class="hidden lg:flex lg:absolute lg:left-0 lg:top-[1680px]"
+            src="home/side2.png"
+          />
+          <img
+            class="hidden lg:flex lg:absolute lg:right-0 lg:top-[3100px]"
+            src="home/side3.png"
+          />
 
           {/* Headline */}
-          <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
+        </main>
+        <div className="absolute top-36 md:top-44 lg:top-40 text-center lg:text-left md:text-left md:w-2/3 lg:w-7/12 lg:flex lg:flex-row items-center mb-20 px-10 md:px-10 lg:px-[90px]">
+          <div>
             <div>
-              <div>
-                <h3 className=" text-white font-bold text-2xl lg:text-5xl lg:leading-[60px] tracking-tighter">
-                  Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
-                </h3>
-                <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
-                  jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
-                  untuk kehidupan yang lebih bermanfaat
-                </p>
-              </div>
-              <div class=" mt-6 lg:mt-9 h-9 lg:h-12 px-6 py-3 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-                <button class="text-white text-base font-normal">
-                  Daftar Sekarang
-                </button>
-              </div>
+              <h3 className=" text-white font-bold text-2xl md:text-4xl lg:text-5xl lg:leading-[60px] tracking-tighter">
+                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
+              </h3>
+              <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
+                jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
+                untuk kehidupan yang lebih bermanfaat
+              </p>
+            </div>
+            <div class=" mt-6 lg:mt-9 h-9 lg:h-12 px-6 py-3 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
+              <button class="text-white text-base font-normal">
+                Daftar Sekarang
+              </button>
             </div>
           </div>
-        </main>
+        </div>
 
         <div class="mt-7 lg:my-16 ml-4 md:ml-10 lg:ml-16 ">
           <h2 class="text-purple-500 text-base md:text-lg lg:text-2xl font-medium ">
@@ -52,7 +60,6 @@ function Index() {
         </div>
 
         <Keunggulan />
-        {/* <Fitur /> */}
 
         <div class="lg:my-14 pb-1 lg:pb-14">
           <div class="container px-7 lg:px-32 py-16 mx-auto">
@@ -89,25 +96,27 @@ function Index() {
             </div>
           </div>
         </div>
-
-        <div class=" lg:w-[1263px] h-[1280px] md:h-[1020px] lg:h-[650px] pt-5 bg-indigo-50 ">
-          <div class="mt-3 lg:mt-16 mb-5 lg:ml-28 ml-10">
-            <h2 class="text-purple-500 text-base lg:text-2xl font-medium ">
-              Galeri
-            </h2>
-            <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 lg:inline-flex">
-              <h1>Dokumentasi Sekolah</h1>
-              <Link href="/galery">
-              <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
-                
-                <div class="text-white text-sm lg:text-xl font-medium ">
-                  Lihat Semua
-                </div>
-              </div></Link>
+        <div className="flex justify-center">
+          <div class="   pt-5 pb-16 bg-indigo-50 ">
+            <div class="mt-3 lg:mt-16 mb-5 lg:ml-28 ml-10">
+              <h2 class="text-purple-500 text-base lg:text-2xl font-medium ">
+                Galeri
+              </h2>
+              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 lg:inline-flex">
+                <h1>Dokumentasi Sekolah</h1>
+                <Link href="/galery">
+                  <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
+                    <div class="text-white text-sm lg:text-xl font-medium ">
+                      Lihat Semua
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
-          </div>
-          <div class="px-16 mt-14 lg:mt-0 lg:px-28">
-            <Dokumentasi />
+
+            <div class="px-16 mt-14 lg:mt-0 lg:px-28">
+              <Dokumentasi />
+            </div>
           </div>
         </div>
 

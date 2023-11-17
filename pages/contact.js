@@ -10,7 +10,7 @@ function Contact() {
             backgroundImage: "url(contact/background.png)",
             backgroundSize: "cover",
             overflowY: "auto",
-            height: "117vh",
+            height: "145vh",
           }}
         >
           {/* Headline */}

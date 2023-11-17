@@ -14,7 +14,7 @@ function News() {
       <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
         {jsonData.map((item, index) => (
           <a key={index} href="#" className="group relative">
-            <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
+            <div className=" w-full overflow-hidden rounded-lg ">
               <img
                 src={item.image}
                 alt=""

@@ -12,7 +12,7 @@ function News() {
             backgroundImage: "url(news/background.png)",
             backgroundSize: "cover",
             overflowY: "auto",
-            height: "117vh",
+            height: "145vh",
           }}
         >
           {/* Headline */}

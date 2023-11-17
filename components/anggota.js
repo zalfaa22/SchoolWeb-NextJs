@@ -13,7 +13,7 @@ function Anggota() {
       <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         {jsonData.map((item, index) => (
           <a key={index} href="#" class="group">
-            <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-3xl bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <div class=" w-full overflow-hidden rounded-3xl bg-gray-200 ">
               <img
                 src={item.image}
                 alt="Person using a pen to cross a task off a productivity paper card."

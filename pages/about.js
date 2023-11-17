@@ -13,7 +13,7 @@ function About() {
             backgroundImage: "url(about/background.png)",
             backgroundSize: "cover",
             overflowY: "auto",
-            height: "117vh",
+            height: "145vh",
           }}
         >
           {/* Headline */}
@@ -61,7 +61,7 @@ function About() {
         </div>
         <Keunggulan />
 
-        <div class=" lg:w-[1263px] h-[1400px] md:h-[1100px] lg:h-[650px] pt-5 bg-indigo-50 ">
+        <div class=" pb-12 lg:pb-0 pt-5 bg-indigo-50 ">
           <div class=" md:mt-10 lg:mt-16 mb-5 ml-7 md:ml-20 lg:ml-28 ">
             <h2 class="text-purple-500 text-base lg:text-2xl font-medium ">
               Perkenalkan Anggota Sekolah
