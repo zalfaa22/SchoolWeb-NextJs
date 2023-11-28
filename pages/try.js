@@ -16,8 +16,8 @@ function About() {
             height: "145vh",
           }}
         > */}
-        {/* Headline */}
-        {/* <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
+          {/* Headline */}
+          {/* <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
             <div>
               <div>
                 <h3 className=" text-white font-bold text-2xl lg:text-5xl lg:leading-[60px] tracking-tighter">
@@ -31,37 +31,27 @@ function About() {
           </div>
         </main> */}
 
-        <div
-          className="bg-cover h-auto bg-center"
-          style={{ backgroundImage: "url('about/bg.svg')" }}
-        >
-          <div class="container px-6 py-20 mx-auto lg:px-20">
-            <div class="items-center lg:flex">
-              <div class="w-full lg:w-1/2">
-                <div class="lg:max-w-lg text-center md:text-left lg:text-left md:px-6 mt-8 md:mt-10 lg:mt-0">
-                  <h1 class="text-3xl font-bold text-white lg:text-5xl">
-                    Tentang Kami
-                  </h1>
-
-                  <p class="mt-3 text-white lg:text-xl">
-                    Informasi tentang kami
-                  </p>
-
-                  {/* <button class="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Shop Now</button> */}
+<div className="bg-cover h-auto bg-center" style={{ backgroundImage: "url('about/bg.svg')" }}>
+<div class="container px-6 py-20 mx-auto lg:px-20">
+        <div class="items-center lg:flex">
+            <div class="w-full lg:w-1/2">
+                <div class="lg:max-w-lg">
+                    <h2 class="text-3xl font-bold text-white lg:text-5xl">Tentang Kami</h2>
+                    
+                    <p class="mt-3 text-white text-xl">Informasi tentang kami</p>
+                    
+                    {/* <button class="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Shop Now</button> */}
                 </div>
-              </div>
-
-              <div class="flex items-center justify-center w-full mt-6 lg:mt-14 lg:w-1/2">
-                <img
-                  class="px-8 md:px-20 lg:px-0 lg:pr-24 h-full lg:max-w-3xl"
-                  src="about/hero.svg"
-                  alt="Catalogue-pana.svg"
-                />
-              </div>
             </div>
-          </div>
-          <div className="lg:pb-4"></div>
+
+            <div class="flex items-center justify-center w-full mt-6 lg:mt-14 lg:w-1/2">
+                <img class=" lg:pr-24 h-full lg:max-w-3xl" src="about/hero.svg" alt="Catalogue-pana.svg"/>
+            </div>
         </div>
+    </div>
+    <div className="lg:pb-4"></div>
+    </div>
+
 
         <div class="my-16 ml-7 lg:ml-16 ">
           <h2 class="text-blue-400 text-base lg:text-2xl font-medium ">
@@ -93,27 +83,24 @@ function About() {
           </h1>
         </div>
         <div class="mb-28">
-          <Keunggulan />
-        </div>
+        <Keunggulan /></div>
 
         <div class=" pb-12 lg:pb-0 pt-5 bg-indigo-50 ">
-        <div class="mt-3 lg:mt-16 mb-5 lg:ml-28 ml-10">
-              <h2 class="text-purple-500 text-base lg:text-2xl font-medium mb-5 md:mb-0 lg:md-0">
+          <div class=" md:mt-10 lg:mt-16 mb-5 ml-7 md:ml-20 lg:ml-28 ">
+            <h2 class="text-purple-500 text-base lg:text-2xl font-medium ">
               Perkenalkan Anggota Sekolah
-              </h2>
-              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 flex justify-between items-center">
-                <h1 class="mr-2">Guru & Staff Sekolah</h1>
-                <div class="flex items-center pr-10 lg:pr-28 ">
-                  <Link href="/galery">
-                    <div class="block px-2 py-1 lg:px-4 lg:py-3 bg-amber-400 hover:bg-amber-500 rounded-lg  items-center">
-                      <div class="text-white text-sm lg:text-xl font-medium">
-                        Lihat Semua
-                      </div>
-                    </div>
-                  </Link>
+            </h2>
+            <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded mt-1 lg:mt-4 lg:inline-flex">
+              <h1>Guru & Staff Sekolah</h1>
+              <Link href="#">
+                <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
+                  <div class="text-white text-sm lg:text-xl font-medium ">
+                    Lihat Semua
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
+          </div>
           <div class="px-20 g:px-28 mt-16 lg:mt-0">
             <Anggota />
           </div>
@@ -133,8 +120,8 @@ function About() {
             class="mx-auto rounded-xl md:w-[650px] lg:w-[1100px] md:h-[300px] lg:h-[500px]"
           ></iframe> */}
           <div className="px-10 md:px-14 lg:px-20 lg:pb-24">
-            <img src="about/video.png" />
-          </div>
+            <img src="about/video.png"/>
+</div>
         </div>
       </div>
     </>

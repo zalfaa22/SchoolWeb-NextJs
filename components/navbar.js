@@ -138,7 +138,7 @@ function Navbar() {
             </svg>
           </button>
           {isMobileMenuOpen && (
-            <div className="lg:hidden bg-white text-gray-800 absolute top-16 left-0 right-0 mt-2 p-2  shadow-lg">
+            <div className="lg:hidden text-center bg-white text-gray-800 absolute top-16 left-0 right-0 mt-2 p-2  shadow-lg">
               <ul
                 className="flex flex-col space-y-2 ml-5 py-3"
                 onClick={closeMenu}
@@ -160,7 +160,7 @@ function Navbar() {
                 </li>
               </ul>
               <button
-                className={`self-center px-6 py-1 ml-4 mb-4 font-semibold ${
+                className={`self-center px-6 py-1 ml-5 mb-4 font-semibold ${
                   isScrolled ? "text-gray-800" : "bg-transparent "
                 } border-2 rounded-2xl mt-4`}
               >

@@ -8,30 +8,97 @@ function Index() {
   return (
     <>
       <div className="bg-white">
-        <main
-          className="bg-background flex h-[40rem] md:h[50rem] lg:h-[50rem]"
+        {/* <main
+          className="bg-background flex h-[59rem] md:h[50rem] lg:h-[50rem]"
           style={{
-            backgroundImage: "url(home/background.png)",
+            backgroundImage: "url(home/bg.svg)",
             backgroundSize: "cover",
             overflowY: "auto",
           }}
-        >
-          <img
-            class="hidden lg:flex lg:absolute lg:right-0 lg:top-[1100px]"
-            src="home/side1.png"
-          />
-          <img
-            class="hidden lg:flex lg:absolute lg:left-0 lg:top-[1680px]"
-            src="home/side2.png"
-          />
-          <img
-            class="hidden lg:flex lg:absolute lg:right-0 lg:top-[3100px]"
-            src="home/side3.png"
-          />
+        > */}
+        <img
+          class="hidden lg:flex lg:absolute lg:right-0 lg:top-[1100px]"
+          src="home/side1.png"
+        />
+        <img
+          class="hidden lg:flex lg:absolute lg:left-0 lg:top-[1680px]"
+          src="home/side2.png"
+        />
+        <img
+          class="hidden lg:flex lg:absolute lg:right-0 lg:top-[3100px]"
+          src="home/side3.png"
+        />
 
-          {/* Headline */}
-        </main>
-        <div className="absolute top-36 md:top-44 lg:top-40 text-center lg:text-left md:text-left md:w-2/3 lg:w-7/12 lg:flex lg:flex-row items-center mb-20 px-10 md:px-10 lg:px-[90px]">
+        {/* Headline */}
+        {/* </main> */}
+
+        {/* <section className=" absolute top-12">
+          <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+            <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-[2xl] xl:max-w-3xl lg:text-left">
+              <h2 className="text-2xl lg:text-5xl font-bold sm:text-6xl text-white lg:leading-[60px]">
+                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
+              </h2>
+
+              <p className="mt-6 mb-8 text-lg lg:text-xl lg:pr-24 sm:mb-12 text-white">
+                jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
+                untuk kehidupan yang lebih bermanfaat
+              </p>
+              <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                <a
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="px-8 py-3 text-lg font-semibold rounded-3xl bg-[#AE39FF] text-white"
+                >
+                  Daftar Sekarang
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+              <img
+                src="home/hero.svg"
+                alt=""
+                className="absolute object-contain h-72 sm:h-80 lg:h-[40rem] xl:h-112 2xl:h-128"
+              />
+            </div>
+          </div>
+        </section> */}
+
+        <div
+          className="bg-cover h-auto bg-center"
+          style={{ backgroundImage: "url('home/bg.svg')" }}
+        >
+          <div class="container px-6 py-20 lg:py-0 mx-auto lg:px-20">
+            <div class="items-center lg:flex">
+              <div class="w-full lg:w-4/5 ">
+                <div class="lg:max-w-lg text-center md:text-left lg:text-left md:px-6 mt-8 md:mt-10 lg:mt-0">
+                  <h2 class="text-3xl font-bold text-white lg:text-5xl lg:-mr-[20rem] lg:leading-[60px]">
+                    Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
+                  </h2>
+
+                  <p class="mt-3 text-white lg:text-xl lg:-mr-[15rem]">
+                    jelajahi semua pengetahuan dan ilmu yang berguna bersama
+                    kami, untuk kehidupan yang lebih bermanfaat
+                  </p>
+
+                  <button class="w-auto px-5  py-2 mt-6 text-base tracking-wider text-white transition-colors duration-300 transform bg-purple-500 rounded-3xl lg:w-auto hover:bg-purple-400 focus:outline-none focus:bg-blue-500 lg:-mr-[10rem]">
+                    Daftar Sekarang
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-center w-full mt-6 lg:mt-5 lg:w-">
+                <img
+                  class="md:px-20 lg:pr-5 h-full lg:max-w-3xl"
+                  src="home/hero.svg"
+                  alt="Catalogue-pana.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="lg:pb-40"></div>
+        </div>
+
+        {/* <div className="absolute top-36 md:top-44 lg:top-40 text-center lg:text-left md:text-left md:w-2/3 lg:w-7/12 lg:flex lg:flex-row items-center mb-20 px-10 md:px-10 lg:px-[90px]">
           <div>
             <div>
               <h3 className=" text-white font-bold text-2xl md:text-4xl lg:text-5xl lg:leading-[60px] tracking-tighter">
@@ -48,7 +115,7 @@ function Index() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="mt-7 lg:my-16 ml-4 md:ml-10 lg:ml-16 ">
           <h2 class="text-purple-500 text-base md:text-lg lg:text-2xl font-medium ">
@@ -87,7 +154,7 @@ function Index() {
                   <a
                     rel=""
                     href="#"
-                    class="px-3 lg:px-5 py-2 mr-20 md:mr-0 lg:mr-0 lg:py-2 text-base lg:text-lg bg-purple-500 text-white font-normal rounded-3xl border-gray-100"
+                    class="block px-3 lg:px-5 py-2 mr-auto md:mr-auto lg:mr-0 lg:py-2 text-base lg:text-lg bg-purple-500 text-white font-normal rounded-3xl border-gray-100"
                   >
                     Baca Selengkapnya
                   </a>
@@ -102,15 +169,17 @@ function Index() {
               <h2 class="text-purple-500 text-base lg:text-2xl font-medium ">
                 Galeri
               </h2>
-              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 lg:inline-flex">
-                <h1>Dokumentasi Sekolah</h1>
-                <Link href="/galery">
-                  <div class="px-2 py-1 lg:px-4 lg:py-3 absolute lg:right-28 bg-amber-400 hover:bg-amber-500 rounded-lg flex-col justify-start items-start gap-1 ">
-                    <div class="text-white text-sm lg:text-xl font-medium ">
-                      Lihat Semua
+              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 flex justify-between items-center">
+                <h1 class="mr-2">Dokumentasi Sekolah</h1>
+                <div class="flex items-center pr-10 lg:pr-28 ">
+                  <Link href="/galery">
+                    <div class="block px-2 py-1 lg:px-4 lg:py-3 bg-amber-400 hover:bg-amber-500 rounded-lg  items-center">
+                      <div class="text-white text-sm lg:text-xl font-medium">
+                        Lihat Semua
+                      </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               </div>
             </div>
 

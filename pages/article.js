@@ -4,7 +4,7 @@ function Article() {
   return (
     <>
       <div className="bg-white">
-        <main
+        {/* <main
           className="hidden bg-background lg:flex flex-col items-center justify-center"
           style={{
             backgroundImage: "url(article/background.png)",
@@ -12,12 +12,23 @@ function Article() {
             overflowY: "auto",
             height: "145vh",
           }}
-        ></main>
-        <img
+        ></main> */}
+
+
+<div className="bg-cover h-auto bg-center" style={{ backgroundImage: "url('article/bg.svg')" }}>
+<div class="container px-6 pt-14 mx-auto lg:px-20">
+                <img class="mt-12 lg:mt-28 h-full " src="article/image.png" alt="Catalogue-pana.svg"/>
+            
+    </div>
+    {/* <div className="lg:pb-6"></div> */}
+    </div>
+
+
+        {/* <img
           className="lg:absolute flex pt-24 lg:pt-0 px-8 lg:top-40 lg:px-16 object-center rounded-lg "
           src="article/image.png"
           alt="Image Description"
-        />
+        /> */}
 
         <div class="mt-8 lg:mt-16 pb-40 ml-8 lg:ml-20 ">
           <div class="px-4 py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
