@@ -140,7 +140,7 @@ function Navbar() {
           {isMobileMenuOpen && (
             <div className="lg:hidden text-center bg-white text-gray-800 absolute top-16 left-0 right-0 mt-2 p-2  shadow-lg">
               <ul
-                className="flex flex-col space-y-2 ml-5 py-3"
+                className="flex flex-col space-y-4 text-center py-3 pt-7 font-semibold"
                 onClick={closeMenu}
               >
                 <li>
@@ -160,9 +160,8 @@ function Navbar() {
                 </li>
               </ul>
               <button
-                className={`self-center px-6 py-1 ml-5 mb-4 font-semibold ${
-                  isScrolled ? "text-gray-800" : "bg-transparent "
-                } border-2 rounded-2xl mt-4`}
+                className="self-center px-6 py-1 mb-8 font-semibold text-white bg-purple-500
+                  rounded-2xl mt-2"
               >
                 PPDB
               </button>
