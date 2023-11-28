@@ -1,36 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Keunggulan from "/components/keunggulan";
 import Anggota from "/components/anggota";
 
 function About() {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <>
       <div className="bg-white">
-        {/* <main
-          className=" bg-background flex "
-          style={{
-            backgroundImage: "url(about/background.png)",
-            backgroundSize: "cover",
-            overflowY: "auto",
-            height: "145vh",
-          }}
-        > */}
-        {/* Headline */}
-        {/* <div className="w-72 md:w-2/3 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
-            <div>
-              <div>
-                <h3 className=" text-white font-bold text-2xl lg:text-5xl lg:leading-[60px] tracking-tighter">
-                  Tentang Kami
-                </h3>
-                <p className="text-lg lg:text-xl text-white font-normal mt-5 pr-5">
-                  Informasi tentang kami
-                </p>
-              </div>
-            </div>
-          </div>
-        </main> */}
-
         <div
           className="bg-cover h-auto bg-center"
           style={{ backgroundImage: "url('about/bg.svg')" }}
@@ -46,21 +32,19 @@ function About() {
                   <p class="mt-3 text-white lg:text-xl">
                     Informasi tentang kami
                   </p>
-
-                  {/* <button class="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Shop Now</button> */}
                 </div>
               </div>
 
               <div class="flex items-center justify-center w-full mt-6 lg:mt-14 lg:w-1/2">
                 <img
-                  class="px-8 md:px-20 lg:px-0 lg:pr-24 h-full lg:max-w-3xl"
+                  class="px-8 md:px-20 lg:px-0 lg:pr-24 h-full lg:max-w-2xl"
                   src="about/hero.svg"
-                  alt="Catalogue-pana.svg"
+                  alt=""
                 />
               </div>
             </div>
           </div>
-          <div className="lg:pb-4"></div>
+          <div className="lg:pb-24"></div>
         </div>
 
         <div class="my-16 ml-7 lg:ml-16 ">
@@ -97,23 +81,23 @@ function About() {
         </div>
 
         <div class=" pb-12 lg:pb-0 pt-5 bg-indigo-50 ">
-        <div class="mt-3 lg:mt-16 mb-5 lg:ml-28 ml-10">
-              <h2 class="text-purple-500 text-base lg:text-2xl font-medium mb-5 md:mb-0 lg:md-0">
+          <div class="mt-3 lg:mt-16 mb-5 lg:ml-28 ml-10">
+            <h2 class="text-purple-500 text-base lg:text-2xl font-medium mb-5 md:mb-0 lg:md-0">
               Perkenalkan Anggota Sekolah
-              </h2>
-              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 flex justify-between items-center">
-                <h1 class="mr-2">Guru & Staff Sekolah</h1>
-                <div class="flex items-center pr-10 lg:pr-28 ">
-                  <Link href="/galery">
-                    <div class="block px-2 py-1 lg:px-4 lg:py-3 bg-amber-400 hover:bg-amber-500 rounded-lg  items-center">
-                      <div class="text-white text-sm lg:text-xl font-medium">
-                        Lihat Semua
-                      </div>
+            </h2>
+            <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF Pro Rounded lg:mt-4 flex justify-between items-center">
+              <h1 class="mr-2">Guru & Staff Sekolah</h1>
+              <div class="flex items-center pr-10 lg:pr-28 ">
+                <Link href="/galery">
+                  <div class="block px-2 py-1 lg:px-4 lg:py-3 bg-amber-400 hover:bg-amber-500 rounded-lg  items-center">
+                    <div class="text-white text-sm lg:text-xl font-medium text-right">
+                      Lihat Semua
                     </div>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
+          </div>
           <div class="px-20 g:px-28 mt-16 lg:mt-0">
             <Anggota />
           </div>
@@ -126,14 +110,32 @@ function About() {
           <h1 class="mb-3 text-2xl lg:text-5xl font-bold font-SF Pro Rounded text-blue-950">
             Video Profil
           </h1>
-          {/* <iframe
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            frameborder="0"
-            allowfullscreen
-            class="mx-auto rounded-xl md:w-[650px] lg:w-[1100px] md:h-[300px] lg:h-[500px]"
-          ></iframe> */}
           <div className="px-10 md:px-14 lg:px-20 lg:pb-24">
-            <img src="about/video.png" />
+            <img
+              src="about/video.png"
+              alt="Video Thumbnail"
+              onClick={openModal}
+              style={{ cursor: "pointer" }}
+            />
+            {isModalOpen && (
+              <div className="fixed inset-0 z-10 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black opacity-50"></div>
+                <div className="z-20">
+                  <iframe
+                    className="w-[15rem] h-[7rem] md:w-[40rem] md:h-[20rem] lg:w-[60rem] lg:h-[30rem]"
+                    src="https://www.youtube.com/embed/VbEy--QW2KA?si=woDu1LqHlSCqStWu"
+                    title="YouTube Video"
+                    allowFullScreen
+                  ></iframe>
+                  <button
+                    className="absolute top-8 right-8 text-white text-5xl"
+                    onClick={closeModal}
+                  >
+                    &times;
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

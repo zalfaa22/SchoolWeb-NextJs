@@ -8,14 +8,6 @@ function Index() {
   return (
     <>
       <div className="bg-white">
-        {/* <main
-          className="bg-background flex h-[59rem] md:h[50rem] lg:h-[50rem]"
-          style={{
-            backgroundImage: "url(home/bg.svg)",
-            backgroundSize: "cover",
-            overflowY: "auto",
-          }}
-        > */}
         <img
           class="hidden lg:flex lg:absolute lg:right-0 lg:top-[1100px]"
           src="home/side1.png"
@@ -28,40 +20,6 @@ function Index() {
           class="hidden lg:flex lg:absolute lg:right-0 lg:top-[3100px]"
           src="home/side3.png"
         />
-
-        {/* Headline */}
-        {/* </main> */}
-
-        {/* <section className=" absolute top-12">
-          <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-            <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-[2xl] xl:max-w-3xl lg:text-left">
-              <h2 className="text-2xl lg:text-5xl font-bold sm:text-6xl text-white lg:leading-[60px]">
-                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
-              </h2>
-
-              <p className="mt-6 mb-8 text-lg lg:text-xl lg:pr-24 sm:mb-12 text-white">
-                jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
-                untuk kehidupan yang lebih bermanfaat
-              </p>
-              <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                <a
-                  rel="noopener noreferrer"
-                  href="#"
-                  className="px-8 py-3 text-lg font-semibold rounded-3xl bg-[#AE39FF] text-white"
-                >
-                  Daftar Sekarang
-                </a>
-              </div>
-            </div>
-            <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-              <img
-                src="home/hero.svg"
-                alt=""
-                className="absolute object-contain h-72 sm:h-80 lg:h-[40rem] xl:h-112 2xl:h-128"
-              />
-            </div>
-          </div>
-        </section> */}
 
         <div
           className="bg-cover h-auto bg-center"
@@ -90,32 +48,13 @@ function Index() {
                 <img
                   class="md:px-20 lg:pr-5 h-full lg:max-w-3xl"
                   src="home/hero.svg"
-                  alt="Catalogue-pana.svg"
+                  alt=""
                 />
               </div>
             </div>
           </div>
           <div className="lg:pb-40"></div>
         </div>
-
-        {/* <div className="absolute top-36 md:top-44 lg:top-40 text-center lg:text-left md:text-left md:w-2/3 lg:w-7/12 lg:flex lg:flex-row items-center mb-20 px-10 md:px-10 lg:px-[90px]">
-          <div>
-            <div>
-              <h3 className=" text-white font-bold text-2xl md:text-4xl lg:text-5xl lg:leading-[60px] tracking-tighter">
-                Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
-              </h3>
-              <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
-                jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
-                untuk kehidupan yang lebih bermanfaat
-              </p>
-            </div>
-            <div class=" mt-6 lg:mt-9 h-9 lg:h-12 px-6 py-3 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-              <button class="text-white text-base font-normal">
-                Daftar Sekarang
-              </button>
-            </div>
-          </div>
-        </div> */}
 
         <div class="mt-7 lg:my-16 ml-4 md:ml-10 lg:ml-16 ">
           <h2 class="text-purple-500 text-base md:text-lg lg:text-2xl font-medium ">
@@ -174,7 +113,7 @@ function Index() {
                 <div class="flex items-center pr-10 lg:pr-28 ">
                   <Link href="/galery">
                     <div class="block px-2 py-1 lg:px-4 lg:py-3 bg-amber-400 hover:bg-amber-500 rounded-lg  items-center">
-                      <div class="text-white text-sm lg:text-xl font-medium">
+                      <div class="text-white text-sm lg:text-xl font-medium text-right">
                         Lihat Semua
                       </div>
                     </div>
